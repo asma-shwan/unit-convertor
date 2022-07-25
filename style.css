@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to top,
+      rgb(114, 12, 121) 0%,
+      rgb(114, 12, 121) 50%,
+     rgb(226, 197, 232) 50%,
+     rgb(226, 197, 232) 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-size: 30px;
+    margin-top: -90px;
+    color: 3D3C42;
+}
+#inp{
+    border:none;
+    background-color: rgb(226, 197, 232) ;
+    border-bottom: 2PX SOLID black;
+   width: 100%;
+   margin-top: 40px;
+   color:3D3C42 ;
+   font-size: 30PX;
+   text-align: center;
+   border-radius: 5px;
+}
+#p1{
+font-size: 25px;
+color:black ;
+margin-top: 100px;
+
+}
+label{
+    color: black;
+    font-size: 30px;
+}
+#p2{
+    font-size: 25px;
+    color:black;
+    margin-top: 40px; 
+}
+#div1{
+    text-align: center;
+}
+input[type="checkbox"] {
+    visibility: hidden;
+  }
+  label {
+    cursor: pointer;
+  }
+  input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+  input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #333;
+    content: "\2713";
+    text-align: center;
+  }
+  input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+  }
+  
+  input[type="checkbox"]:focus + label::before {
+      outline: rgb(59, 153, 252) auto 5px;
+  }
+  button{
+    padding: 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 197, 232) ;
+font-size: 16px;
+color: black;
+  }
+  button:hover{
+    background-color: rgb(213, 185, 219);
+  }
+  #template{
+   text-align: center;
+   font-size: 30px;
+  }
